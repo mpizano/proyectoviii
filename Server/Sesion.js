@@ -1,5 +1,4 @@
 /*Archivo que guarda las rutas para el manejo de la sesion del usuario */
-
 //Libreria para el encriptado y desencriptado de contraseñas
 const bcrypt = require("bcryptjs");
 //Numero requerido para la encriptación
