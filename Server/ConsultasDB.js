@@ -187,7 +187,7 @@ router.post("/areas", (peticion, respuesta) => {
 });
 
 //Funcion para obtener todas las dependencias que esten realacionadas a un Centro Universitario en especifico
-router.post("/opcionesDepe", async (peticion, respuesta, next) => {
+router.post("/opcionesDepe", async (peticion, respuesta) => {
     //Obteniendo la opcion seleccionada del centro universitario en el front end
     const cu = peticion.body.cu;
     try {
