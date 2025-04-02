@@ -1,0 +1,36 @@
+.titulo {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.parrafo {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.btnConfirmar {
+    margin-right: 10px;
+    background-color:  #0067d4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnConfirmar:hover {
+    background-color: #007BFF;
+}
+
+.btnCancelar{
+    
+        background-color:   firebrick;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+      
+}
+
+.btnCancelar:hover{
+    background-color: rgb(228, 18, 18);
+}

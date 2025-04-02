@@ -1,0 +1,77 @@
+.Datos {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 100px;
+    flex: 1;
+}
+
+/*Estilo para insertar una card cuando la pantalla es grande*/
+@media screen and (min-width: 200px) {
+    .tarjeta {
+        margin-top: 25px;
+        max-width: 600px;
+        width: 500px;
+        box-shadow: 0 15px 20px 15px rgba(129, 124, 124, 0.3);
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.4);
+        padding: 30px;
+    }
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 40px);
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.labelDatos {
+    width: 80px;
+    /* Fija el ancho del label, ajusta según sea necesario */
+    margin-right: 30px;
+    margin-left: 30px;
+    /* Espaciado entre label e input, ajusta según sea necesario */
+    text-align: left;
+}
+
+.inputDatos {
+    width: 200px;
+    text-align: center;
+}
+
+.inputDatos:enabled {
+    text-align: center;
+}
+.inputDatos:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+/*Estilo para el contendor del ingreso de datos*/
+.auth-form-container {
+    display: flex;
+}
+
+.btn {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(230, 224, 224);
+}
+
+.Select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

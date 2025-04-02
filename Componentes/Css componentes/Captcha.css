@@ -1,0 +1,74 @@
+/*Estilos para el componenetes del captcha*/
+.captcha {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ErrorText{
+    color: red;
+}
+@keyframes blink-once {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .blink-once {
+    animation: blink-once 1s linear 1;
+  }
+
+/*Estilo para el boton del captcha*/
+.captchaBtn {
+    border: 1.5px solid;
+    border-color: #000000;
+}
+
+/*Estilo para el componente general del captcha*/
+.modern-react-captcha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/*Estilo para el texto delplegado del captcha*/
+.modern-react-captcha__captchaText {
+    border-radius: 5px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    width: fit-content;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/*Estilo para el boton de recarga del captcha*/
+.modern-react-captcha__reloadBtn {
+    border: none;
+    width: fit-content;
+    background: transparent;
+    padding: 0;
+    color: rgb(42, 131, 219);
+}
+
+/*Estilo para el estilo  */
+.modern-react-captcha__reloadBtn:hover {
+    color: rgb(0, 51, 102);
+}
+
+/*Estilo para el input del captcha*/
+.modern-react-captcha__inputField {
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    color: #000000;
+    transition: border-color 0.2s ease-in-out;
+}
+
+/*Estilo para el focus del input*/
+.modern-react-captcha__inputField:focus {
+    border-color: #0082e6;
+}

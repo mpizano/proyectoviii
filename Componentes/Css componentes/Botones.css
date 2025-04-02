@@ -1,0 +1,44 @@
+.botonRegresar {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: black;
+}
+
+.botonRegresar:hover {
+    color: blue;
+}
+
+.botonAzul {
+    margin-right: 10px;
+    background-color: steelblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.botonAzul:hover {
+    background-color: rgb(0, 126, 230);
+}
+
+.botonRojo {
+    margin-right: 10px;
+    background-color: firebrick;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.botonRojo:hover{
+    background-color: rgb(231, 15, 15);
+}
+
+.contenedorBotones{
+   display: flex;
+   justify-content: space-between;
+}

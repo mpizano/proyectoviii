@@ -1,0 +1,18 @@
+.sidebar {
+    width: 0;
+    transition: width 0.5s;
+  }
+  
+  .sidebar.open {
+    width: 200px;
+  }
+  
+  .menu {
+    padding: 10px;
+  }
+  
+  .sidebar-button {
+    position: absolute;
+    z-index: 1;
+  }
+  
